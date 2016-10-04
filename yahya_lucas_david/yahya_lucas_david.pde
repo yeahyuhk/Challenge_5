@@ -6,5 +6,7 @@ void setup() {
   joe.display();
 }
 void draw() {
-  joe.move(20, 30);
+  background(0);
+  joe.display();
+  joe.move(1,1);
 }
